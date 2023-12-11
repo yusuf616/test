@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    padding: 20px;
+    background-color: #586eab;
+}
+
+.nav-ul{
+   list-style-type:none; 
+}
+
+.nav-li{
+    display:inline-block;
+    width: 100px;
+    border-bottom:2px solid #eee ;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #eee;
+
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* a:hover{
+    color:black;
+} */
+
+.nav-li:hover{
+    border-color:rgb(160, 213, 155);
+    color: rgb(160, 213, 155);
+}
+
+.nav-li:active{
+    border-color:rgb(96, 226, 84);
+    color: rgb(96, 226, 84);
+}
+
+
